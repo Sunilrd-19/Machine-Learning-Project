@@ -15,4 +15,21 @@ Software and account Requirement.
 5. GIT Documentation - https://git-scm.com/docs/gittutorial 
 
 Creating conda environment
+...
+conda create -p venv python==3.7 -y
+...
+
+...
+conda activate venv/
+...
+
+or
+
+...
+conda activate venv
+...
+
+pip install -r requiremnts.txt
+
+
 
